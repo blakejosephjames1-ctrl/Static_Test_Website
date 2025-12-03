@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Big Red Useless Button</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #222;
+        margin: 0;
+        font-family: 'Quicksand', Arial, sans-serif;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+
+    .big-button {
+        background: red;
+        border: none;
+        padding: 40px 80px;
+        font-size: 32px;
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+        box-shadow: 0 12px #8b0000;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .big-button:active {
+        box-shadow: 0 6px #8b0000;
+        transform: translateY(6px);
+    }
+</style>
+</head>
+<body>
+
+<div class="button-container">
+    <button class="big-button" onclick="doNothing()">DO NOT PRESS</button>
+    <div id="flash" aria-hidden="true" style="opacity:0; transition:opacity 160ms ease; margin-top:12px; font-weight:700; color:#fff; font-size:18px;">website in development</div>
+</div>
+
+<script>
+function doNothing() {
+    const flash = document.getElementById('flash');
+    if (!flash) return;
+    flash.style.opacity = '1';
+    flash.setAttribute('aria-hidden','false');
+    setTimeout(() => {
+        flash.style.opacity = '0';
+        flash.setAttribute('aria-hidden','true');
+    }, 500);
+}
+</script>
+
+</body>
+</html>
