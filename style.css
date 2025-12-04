@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    margin: 0;
+    font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.big-button {
+    background: red;
+    border: none;
+    padding: 40px 80px;
+    font-size: 32px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 12px #8b0000;
+    transition: all 0.1s ease-in-out;
+}
+
+.big-button:active {
+    box-shadow: 0 6px #8b0000;
+    transform: translateY(6px);
+}
+
+.flash-message {
+    opacity: 0;
+    transition: opacity 160ms ease;
+    margin-top: 12px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+}
