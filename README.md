@@ -32,3 +32,4 @@ chmod +x deploy.sh
 **Run it**\
 ./deploy.sh
 
+*You can now access the webiste from any computer on the network with http://<rasberry pi ipaddress (hostname -I in bash)>*
