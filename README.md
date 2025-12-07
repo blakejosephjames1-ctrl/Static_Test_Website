@@ -39,7 +39,7 @@ chmod +x deploy.sh
 ## Change website
 **You can now change out this website for any alternative <ins>static</ins> webiste built off HTML, JavaScript and CSS**
 
-**To change website contents edit each file using sudo vim /home/pi/website/..... or sudo nano /home/pi/website/...**\
+**To change website contents edit each file using sudo vim /home/pi/website/..... or sudo nano /home/pi/website/...**
 
 **The three file locations are:**
 
