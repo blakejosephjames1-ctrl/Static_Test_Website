@@ -9,14 +9,15 @@ Nginx
 
 ## File Structure
 <pre>
-📁home
- └── 📁$USER
-      └── 📁website
-           ├── index.html
-           ├── style.css
-           ├── script.js
-           ├── LICENSE
-           └── deploy.sh
+📁/home/pi/website
+├── src
+│   ├── /index.html
+│   ├── /style.css
+│   └── /script.js
+├── deploy
+│   └── /deploy.sh
+├── /LICENSE
+└── /README.md
 </pre>
 ## Deployment script for pi
 *if you are launching this code on a raspberry pi run the commands below into the command prompt*
