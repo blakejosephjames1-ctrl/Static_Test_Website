@@ -18,6 +18,14 @@ Nginx
 ├── script.js\
 ├── *LICENSE*\
 └── *deploy.sh*
+/home
+ └── $USER
+      └── website
+          ├── index.html
+          ├── style.css
+          ├── script.js
+          ├── LICENSE
+          └── deploy.sh
 
 ## Deployment script for pi
 *if you are launching this code on a raspberry pi run the commands below into the command prompt*
