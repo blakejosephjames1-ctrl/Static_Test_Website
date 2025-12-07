@@ -6,16 +6,17 @@ HTML5\
 CSS3\
 JavaScript\
 Nginx
-<pre>
+
 ## File Structure
-📁**home**\
- └── 📁**$USER**\
-      └── 📁**website**\
-               ├── index.html\
-               ├── style.css\
-               ├── script.js\
-               ├── LICENSE\
-               └── deploy.sh
+<pre>
+📁home
+ └── 📁$USER
+      └── 📁website
+           ├── index.html
+           ├── style.css
+           ├── script.js
+           ├── LICENSE
+           └── deploy.sh
 </pre>
 ## Deployment script for pi
 *if you are launching this code on a raspberry pi run the commands below into the command prompt*
