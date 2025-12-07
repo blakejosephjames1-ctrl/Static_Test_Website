@@ -40,17 +40,18 @@ chmod +x deploy.sh
 **You can now change out this website for any alternative <ins>static</ins> webiste built off HTML, JavaScript and CSS**
 
 **To change website contents edit each file using sudo vim /home/pi/website/..... or sudo nano /home/pi/website/...**\
-The three file locations are
+
+**The three file locations are:**
 
 /home/pi/website/index.html\
 /home/pi/website/style.css\
-/home/pi/website/script.js\
+/home/pi/website/script.js
 
 **Now change coppy the files with the commands**
 
 sudo cp /home/pi/website/index.html /var/www/html/\
 sudo cp /home/pi/website/style.css /var/www/html/\
-sudo cp /home/pi/website/script.js /var/www/html/\
+sudo cp /home/pi/website/script.js /var/www/html/
 
 **Finaly update permisions and restrt nginx**
 
