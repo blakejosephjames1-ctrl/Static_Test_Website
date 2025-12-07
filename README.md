@@ -18,8 +18,8 @@ Nginx
 📁 **website**\
 ├── index.html     
 ├── style.css       
-├── script.js 
-├── *LICENSE*
+├── script.js \
+├── *LICENSE*\
 └── *deploy.sh*
 
 ## Deployment script for pi
