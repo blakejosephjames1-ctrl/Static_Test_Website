@@ -18,7 +18,7 @@ Nginx
 📁 **website**\
 ├── index.html     
 ├── style.css       
-├── script.js \
+├── script.js\
 ├── *LICENSE*\
 └── *deploy.sh*
 
@@ -38,3 +38,6 @@ chmod +x deploy.sh
 ./deploy.sh
 
 *You can now access the webiste from any computer on the network with http://<raspberry pi ipaddress (hostname -I in bash)>*
+
+## Change website
+**You can now change out this website for any alternative ***static*** webiste built off HTML, JavaScript and CSS**
