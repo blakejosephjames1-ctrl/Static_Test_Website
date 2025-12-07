@@ -11,11 +11,11 @@ Nginx
 
  
 ## File Sturcture
-📁 **home**
-|
-📁 **$USER**
-|
-📁 **website**
+📁 **home**\
+|\
+📁 **$USER**\
+|\
+📁 **website**\
 ├── index.html     
 ├── style.css       
 └── script.js 
