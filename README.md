@@ -7,8 +7,7 @@ CSS3\
 JavaScript\
 Nginx
  
-## File Sturcture
-
+## File Structure
 📁**home**\
  └── 📁**$USER**\
       └── 📁**website**\
