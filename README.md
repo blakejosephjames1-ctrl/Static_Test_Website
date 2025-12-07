@@ -11,8 +11,11 @@ Nginx
 
  
 ## File Sturcture
-📁 **project_root_folder**
-
+📁 **home**
+|
+📁 **$USER**
+|
+📁 **website**
 ├── index.html     
 ├── style.css       
 └── script.js 
