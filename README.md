@@ -1,5 +1,5 @@
 # Static_Test_Website
-This repository contains a lightweight three-file static website built for testing Nginx based low power web servers\
+This repository contains a lightweight three-file static website built for testing Nginx based low power *(home)* web servers\
 The deployment below can be used to set up a new PI installing nginx for running the website or to set up a PI already running a Nginx webiste
 ### 💻
 HTML5\
