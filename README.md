@@ -55,6 +55,6 @@ sudo cp /home/pi/website/script.js /var/www/html/
 
 **Finaly update permisions and restrt nginx**
 
-sudo chown -R www-data:www-data /var/www/html
-sudo chmod -R 775 /var/www/html
+sudo chown -R www-data:www-data /var/www/html\
+sudo chmod -R 775 /var/www/html\
 sudo systemctl reload nginx
