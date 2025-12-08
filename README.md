@@ -8,7 +8,7 @@ JavaScript\
 Nginx
 
 ## File Structure
-<pre>
+```
 📁/home/pi/website
 ├── src
 │   ├── /index.html
@@ -18,7 +18,7 @@ Nginx
 │   └── /deploy.sh
 ├── /LICENSE
 └── /README.md
-</pre>
+```
 ## Deployment script for pi
 *if you are launching this code on a raspberry pi run the commands below into the command prompt*
 
@@ -58,3 +58,6 @@ sudo cp /home/pi/website/script.js /var/www/html/
 sudo chown -R www-data:www-data /var/www/html\
 sudo chmod -R 775 /var/www/html\
 sudo systemctl reload nginx
+
+
+## currently working on adding docker for distrubution
