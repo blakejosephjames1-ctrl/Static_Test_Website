@@ -25,7 +25,7 @@ Nginx
 **Go to home directory**\
 cd ~  
 
-**Download deploy script (fixed URL)**\
+**Download deploy script**\
 curl -O https://raw.githubusercontent.com/blakejosephjames1-ctrl/Static_Test_Website/main/deploy.sh  
 
 **Make it executable**\
