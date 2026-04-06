@@ -53,7 +53,7 @@ sudo cp /home/pi/website/index.html /var/www/html/\
 sudo cp /home/pi/website/style.css /var/www/html/\
 sudo cp /home/pi/website/script.js /var/www/html/
 
-**Finaly update permisions and restrt nginx**
+**Finaly update permisions and restart nginx**
 
 sudo chown -R www-data:www-data /var/www/html\
 sudo chmod -R 775 /var/www/html\
